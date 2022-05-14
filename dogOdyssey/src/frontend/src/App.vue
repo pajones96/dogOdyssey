@@ -1,17 +1,17 @@
 <template>
   <NavBar />
-  <HelloWorld />
+  <Home />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import NavBar from './components/NavBar.vue'
+import Home from './components/Home.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    NavBar
-  }
+    NavBar,
+    Home
+}
 }
 </script>
 

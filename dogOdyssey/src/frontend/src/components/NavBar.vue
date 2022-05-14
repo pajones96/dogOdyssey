@@ -2,9 +2,10 @@
     <div>
          <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li style="float:right"><a class="active" href="#about">About</a></li>
+        <li><a href="#menagerie">Menagerie</a></li>
+        <li><a href="#ramblings">Ramblings</a></li>
+        <li><a href="#about">About</a></li>
+        <li style="float:right"><a class="active" href="#contact">Contact</a></li>
         </ul> 
     </div>
 </template>
@@ -15,7 +16,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(41, 30, 38);
 }
 
 li {
@@ -24,7 +25,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: rgb(247, 242, 232);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
