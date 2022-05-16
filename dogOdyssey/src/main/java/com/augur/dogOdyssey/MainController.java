@@ -12,7 +12,4 @@ public class MainController {
         return "Full Stack Java with Spring Boot & VueJS!";
     }
 
-    @GetMapping("/#Contact")
-    public String contact(){ return "Get in touch";}
-
 }

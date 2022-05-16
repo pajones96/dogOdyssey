@@ -7,7 +7,7 @@ export default {
   name: 'HomePage',
   data() {
     return {
-      msg: ''
+      msg: 'Augury Solutions'
     }
   },
   mounted() {
@@ -15,3 +15,7 @@ export default {
   }
 }
 </script>
+
+<style>
+
+</style>

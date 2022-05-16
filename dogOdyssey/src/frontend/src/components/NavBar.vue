@@ -1,12 +1,13 @@
 <template>
     <nav class="flex-container">
          <ul>
-        <li><a href="#homepage">Home</a></li>
-        <li><a href="#menagerie">Menagerie</a></li>
-        <li><a href="#ramblings">Ramblings</a></li>
-        <li><a href="#about">About</a></li>
-        <li style="float:right"><a class="active" href="#contact">Contact</a></li>
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/portfolio">Portfolio</router-link></li>
+        <li><router-link to="/ramblings">Ramblings</router-link></li>
+        <li><router-link to="/about">About</router-link></li>
+        <li style="float:right"><router-link to="/contact">Contact</router-link></li>
         </ul> 
+        
     </nav>
 </template>
 
