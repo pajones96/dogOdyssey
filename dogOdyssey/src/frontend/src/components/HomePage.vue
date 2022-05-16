@@ -4,18 +4,14 @@
 
 <script>
 export default {
-  name: 'Home',
+  name: 'HomePage',
   data() {
     return {
       msg: ''
     }
   },
   mounted() {
-    fetch("/")
-      .then((response) => response.text())
-      .then((data) => {
-          this.msg = data;
-      });
+    fetch("/");
   }
 }
 </script>

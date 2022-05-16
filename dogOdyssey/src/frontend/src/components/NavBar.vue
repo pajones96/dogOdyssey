@@ -1,16 +1,21 @@
 <template>
-    <div>
+    <nav class="flex-container">
          <ul>
-        <li><a href="#home">Home</a></li>
+        <li><a href="#homepage">Home</a></li>
         <li><a href="#menagerie">Menagerie</a></li>
         <li><a href="#ramblings">Ramblings</a></li>
         <li><a href="#about">About</a></li>
         <li style="float:right"><a class="active" href="#contact">Contact</a></li>
         </ul> 
-    </div>
+    </nav>
 </template>
 
 <style scoped>
+
+.flex-container{
+  display: flex;
+}
+
 ul {
   list-style-type: none;
   margin: 0;

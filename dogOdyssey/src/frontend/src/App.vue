@@ -1,16 +1,16 @@
 <template>
   <NavBar />
-  <Home />
+  <HomePage />
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
-import Home from './components/Home.vue'
+import HomePage from './components/HomePage.vue'
 export default {
   name: 'App',
   components: {
     NavBar,
-    Home
+    HomePage
 }
 }
 </script>
