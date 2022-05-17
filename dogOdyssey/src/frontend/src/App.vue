@@ -17,6 +17,6 @@ export default {
 
 <style>
   div {
-    background-color: dimgray;
+    background-color: rgb(41, 40, 41);
   }
 </style>

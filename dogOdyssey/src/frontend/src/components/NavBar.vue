@@ -23,7 +23,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(41, 30, 38);
+  background-color: rgb(51, 33, 53);
   font-family: 'Courier-New', monospace;
 }
 
@@ -33,7 +33,7 @@ li {
 
 li a {
   display: block;
-  color: rgb(247, 242, 232);
+  color: rgb(226, 158, 69);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
