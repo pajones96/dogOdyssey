@@ -17,5 +17,7 @@ export default {
 </script>
 
 <style>
-
+h1 {
+    font-family: 'Courier-New', monospace;
+}
 </style>

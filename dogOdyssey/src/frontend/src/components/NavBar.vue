@@ -1,5 +1,5 @@
 <template>
-    <nav class="flex-container">
+    <nav class="header">
          <ul>
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/portfolio">Portfolio</router-link></li>
@@ -7,14 +7,15 @@
         <li><router-link to="/about">About</router-link></li>
         <li style="float:right"><router-link to="/contact">Contact</router-link></li>
         </ul> 
-        
     </nav>
 </template>
 
 <style scoped>
 
-.flex-container{
-  display: flex;
+.header {
+  display: block;
+  width: 100%;
+  margin: 0px;
 }
 
 ul {
@@ -23,6 +24,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: rgb(41, 30, 38);
+  font-family: 'Courier-New', monospace;
 }
 
 li {

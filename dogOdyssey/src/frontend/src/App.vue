@@ -1,6 +1,8 @@
 <template>
-  <NavBar></NavBar>
-  <router-view/>
+  <div>
+    <NavBar></NavBar>
+    <router-view/>
+  </div>
 </template>
 
 <script>
@@ -14,4 +16,7 @@ export default {
 </script>
 
 <style>
+  div {
+    background-color: dimgray;
+  }
 </style>

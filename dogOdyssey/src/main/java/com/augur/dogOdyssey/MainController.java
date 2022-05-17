@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MainController {
 
+
     @GetMapping("/")
     public String hello() {
         return "Full Stack Java with Spring Boot & VueJS!";
