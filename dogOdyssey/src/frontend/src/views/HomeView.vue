@@ -1,6 +1,16 @@
 <template>
   <h1>{{ msg }}</h1>
-  <body>{{ desc }}</body>
+  <div class="row">
+    <div class="column side"></div>
+    <div class="column middle">
+      <p>Bespoke code microboutique for future-minded applications. 
+        <br><br><br> 
+        By which I mean it's just me making neat code things sometimes and maybe I get paid for it
+      </p>
+    </div>
+    <div class="column side"></div>
+  </div>
+  
 </template>
 
 <script>
@@ -9,7 +19,6 @@ export default {
   data() {
     return {
       msg: 'Augury Solutions.',
-      desc: 'Bespoke code microboutique for future-minded applications.\n\n By which I mean it\'s just me making neat code things sometimes and maybe I get paid for it'
     }
   },
   mounted() {
@@ -20,11 +29,32 @@ export default {
 
 <style>
 h1 {
-    align-content: center;
-    margin: 20px;
-    font-family: 'Inconsolata', monospace;
-    color: rgb(226, 158, 69);
+  text-align: center;
+  align-content: center;
+  margin: 20px;
+  font-family: 'Inconsolata', monospace;
+  color: rgb(226, 158, 69);
 }
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.column.middle{
+  text-align: center;
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+.column.side {
+  text-align: center;
+   -webkit-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+}
+
 body {
   align-content: center;
   color: rgb(236, 197, 145);
