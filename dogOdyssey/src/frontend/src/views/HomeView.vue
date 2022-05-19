@@ -1,4 +1,5 @@
 <template>
+<!---The landing page, more or less. Meant to just give the first impression-->
   <h1>{{ msg }}</h1>
   <div class="row">
     <div class="column side"></div>

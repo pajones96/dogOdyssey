@@ -1,4 +1,5 @@
 <template>
+<!---Exactly what it says on the tin. A navigation bar at the top that should always be present-->
     <nav class="header">
          <ul>
         <li><router-link to="/">Home</router-link></li>

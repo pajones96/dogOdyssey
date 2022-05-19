@@ -1,4 +1,5 @@
 <template>
+<!---This page should look like a blog. One long feed of posts to scroll through, maybe engage with.-->
     <h1>Ramblings</h1>
     <div>
         <p>Treating this space as a professional blog</p>

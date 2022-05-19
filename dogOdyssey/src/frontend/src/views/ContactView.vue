@@ -1,4 +1,5 @@
 <template>
+<!---Ways to get in touch! Need to get some security work in on this so it's not abusable.-->
     <h1>Contact</h1>
     <div>
         <p>Email contact form goes here once I get that chunk up and running. Also various socials</p>

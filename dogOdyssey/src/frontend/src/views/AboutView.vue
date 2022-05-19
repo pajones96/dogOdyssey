@@ -1,4 +1,5 @@
 <template>
+<!---A more in-depth explanation of the company, me, so on and so forth-->
   <div class="about">
     <h1>About</h1>
     <body>Augury Solutions is a small software development business.</body>

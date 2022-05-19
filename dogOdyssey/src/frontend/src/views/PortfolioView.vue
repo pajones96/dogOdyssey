@@ -1,4 +1,5 @@
 <template>
+<!---This should have a couple columns of links to projects represented as tiles with names and short descriptions-->
     <h1>Portfolio</h1>
     <div>
         <p>Gonna put other projects here, eventually. Probably also links to github repos</p>
