@@ -3,12 +3,18 @@
     <h1>Ramblings</h1>
     <div>
         <p>Treating this space as a professional blog</p>
+        <ol></ol>
     </div>
 </template>
 
 <script>
 export default {
     name: 'RamblingsView',
+    data() {
+        //This is where the posts go, and it should be passed into the HTML here
+        //It'll be structured as a list of records from a database, then made
+        //pretty with some CSS
+    },
     mounted () {
         fetch("/Ramblings");
     }
