@@ -3,7 +3,7 @@
     <h1>Ramblings</h1>
     <div>
         <p>Treating this space as a professional blog</p>
-        <ol></ol>
+        <ol class="posts"></ol>
     </div>
 </template>
 
@@ -26,6 +26,7 @@ export default {
 h1 {
     font-family: 'Courier-New', monospace;
 }
+
 div {
     text-align: center;
     -webkit-flex: 2;
