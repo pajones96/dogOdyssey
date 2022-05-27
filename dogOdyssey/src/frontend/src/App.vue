@@ -17,6 +17,6 @@ export default {
 
 <style>
   div {
-    background-color: rgb(41, 40, 41);
+    background-color: rgb(53, 50, 53);
   }
 </style>

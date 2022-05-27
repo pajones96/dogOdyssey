@@ -1,9 +1,7 @@
 package com.augur.dogOdyssey;
 
-import org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.function.ServerResponse;
 
 @RestController
 public class MainController {

@@ -5,6 +5,7 @@
         <p>Email contact form goes here once I get that chunk up and running. Also various socials</p>
         <br>
         <form>
+            <!---Add some restrictions on this to sanitize inputs-->
             <div>
                 <input type="text" name="name" value="name">
                 <input type="email" name="email" value="email">
