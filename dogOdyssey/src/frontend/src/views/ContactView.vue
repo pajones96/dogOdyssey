@@ -7,8 +7,8 @@
         <form>
             <!---Add some restrictions on this to sanitize inputs-->
             <div>
-                <input type="text" name="name" value="name">
-                <input type="email" name="email" value="email">
+                <input type="text" name="name" value="name" required>
+                <input type="email" name="email" value="email" required>
             </div>
             <br>
             <textarea name="message" rows="10" cols="80">
@@ -27,6 +27,7 @@ export default {
         fetch("/Contact");
     }
 }
+
 </script>
 
 <style>

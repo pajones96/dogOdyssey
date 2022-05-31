@@ -4,9 +4,12 @@
   <div class="row">
     <div class="column side"></div>
     <div class="column middle">
-      <p>Bespoke code microboutique for future-minded applications. 
+      <p class="homeBlurb">
+        <br><br>
+        Bespoke code microboutique for future-minded applications. 
         <br><br><br> 
         By which I mean it's just me making neat code things sometimes and maybe I get paid for it
+        <br><br><br>
       </p>
     </div>
     <div class="column side"></div>
@@ -37,6 +40,12 @@ h1 {
   color: rgb(226, 158, 69);
 }
 
+.homeBlurb {
+  border: solid;
+  border-radius: 5px;
+  border-color: rgb(34, 32, 34);
+}
+
 .row {
   display: -webkit-flex;
   display: flex;
@@ -44,6 +53,7 @@ h1 {
 
 .column.middle{
   text-align: center;
+  padding: 20px;
   -webkit-flex: 2;
   -ms-flex: 2;
   flex: 2;
