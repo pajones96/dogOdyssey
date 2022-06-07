@@ -22,7 +22,7 @@ export default {
   name: 'HomePage',
   data() {
     return {
-      msg: 'Augury Solutions.',
+      msg: 'Augury Solutions',
     }
   },
   mounted() {
@@ -41,8 +41,9 @@ h1 {
 }
 
 .homeBlurb {
+  background-color: rgb(34, 32, 34);
   border: solid;
-  border-radius: 5px;
+  border-radius: 10px;
   border-color: rgb(34, 32, 34);
 }
 

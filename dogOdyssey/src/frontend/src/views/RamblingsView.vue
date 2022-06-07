@@ -3,7 +3,7 @@
     <h1>Ramblings</h1>
     <div>
         <p>Treating this space as a professional blog</p>
-        <ol class="posts"></ol>
+        <ol class="posts">{{ ramblings }}</ol>
     </div>
 </template>
 
