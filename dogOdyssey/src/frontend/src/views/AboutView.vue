@@ -4,9 +4,14 @@
     <h1>About</h1>
     <body>
       <!-- In hindisght maybe this page isn't actually necessary. It could probably be incorporated into Home-->
-      <p class="aboutBlurb">
-        {{ bioThingy}}
-      </p>
+      <div class="row">
+        <div class="column">
+          <p class="aboutBlurb">
+            {{ bioThingy}}
+          </p>
+        </div>
+      </div>
+      
     </body>
   </div>
 </template>
@@ -32,6 +37,7 @@ body {
 }
 
 .aboutBlurb {
+  margin: 30px;
   border-radius: 10px;
   background-color: rgb(34, 32, 34);
 }
