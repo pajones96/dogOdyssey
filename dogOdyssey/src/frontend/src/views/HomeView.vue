@@ -22,7 +22,7 @@ export default {
   name: 'HomePage',
   data() {
     return {
-      msg: 'Augury Solutions',
+      msg: 'Augury Solutions'
     }
   },
   mounted() {
