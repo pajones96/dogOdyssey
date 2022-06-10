@@ -11,8 +11,8 @@
                 <input type="email" name="email" value="email" required>
             </div>
             <br>
-            <textarea name="message" rows="10" cols="80">
-            Get in touch
+            <textarea name="message" rows="10" cols="80" v-model="contactBoxMsg">
+            
             </textarea> 
         </form>
         <br>
@@ -23,6 +23,11 @@
 <script>
 export default {
     name: 'ContactPage',
+    data (){
+        return {
+            contactBoxMsg: 'Message goes here'
+        }
+    },
     mounted () {
         fetch("/Contact");
     }
