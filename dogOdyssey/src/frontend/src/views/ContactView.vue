@@ -7,12 +7,11 @@
         <form>
             <!---Add some restrictions on this to sanitize inputs-->
             <div>
-                <input type="text" name="name" value="name" required>
-                <input type="email" name="email" value="email" required>
+                <input v-model="name" name="name" placeholder="name" required>
+                <input v-model="email" name="email" placeholder="email" required>
             </div>
             <br>
-            <textarea name="message" rows="10" cols="80" v-model="contactBoxMsg">
-            
+            <textarea v-model="contactBoxMsg" name="message" rows="10" cols="80" placeholder="Message goes here!">
             </textarea> 
         </form>
         <br>
@@ -25,7 +24,7 @@ export default {
     name: 'ContactPage',
     data (){
         return {
-            contactBoxMsg: 'Message goes here'
+            contactBoxMsg: ''
         }
     },
     mounted () {
@@ -49,14 +48,24 @@ div {
 input {
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 5px;
+    border-style: hidden;
     color: rgb(226, 158, 69);
+    background-color: rgb(34, 32, 34);
 }
 
 textarea {
+    max-width: 500px;
+    max-height: 300px;
+    resize: none;
+    border-radius: 5px;
+    border-style: hidden;
     color: rgb(226, 158, 69);
+    background-color: rgb(34, 32, 34);
 }
 
 button {
+    border-radius: 5px ;
     color: rgb(226, 158, 69);
 }
 </style>

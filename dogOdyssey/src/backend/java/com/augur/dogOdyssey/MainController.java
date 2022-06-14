@@ -21,7 +21,6 @@ public class MainController {
 
     //Looking at some documentation for a bit, this is a placeholder
     @PostMapping
-    @ResponseStatus(HttpStatus.ACCEPTED)
     public void sendMessage(){
 
     }
