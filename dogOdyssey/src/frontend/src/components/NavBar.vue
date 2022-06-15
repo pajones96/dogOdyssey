@@ -6,6 +6,7 @@
         <li><router-link to="/portfolio">Portfolio</router-link></li>
         <li><router-link to="/ramblings">Ramblings</router-link></li>
         <li><router-link to="/about">About</router-link></li>
+        <!---#TODO Add Light mode/Dark mode toggle, default to dark mode-->
         <li style="float:right"><router-link to="/contact">Contact</router-link></li>
         </ul> 
     </nav>

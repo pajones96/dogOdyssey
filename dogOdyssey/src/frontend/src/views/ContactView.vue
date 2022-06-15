@@ -60,6 +60,8 @@ textarea {
     resize: none;
     border-radius: 5px;
     border-style: hidden;
+    padding: 5px;
+    white-space: pre-line;
     color: rgb(226, 158, 69);
     background-color: rgb(34, 32, 34);
 }
