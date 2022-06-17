@@ -4,15 +4,13 @@
     <div>
         <p>Email contact form goes here once I get that chunk up and running. Also various socials</p>
         <br>
-        <form>
+        <form class="contactForm">
             <!---Add some restrictions on this to sanitize inputs-->
-            <div>
+            <div class="messageFromInfo">
                 <input v-model="name" name="name" placeholder="name" required>
                 <input v-model="email" name="email" placeholder="email" required>
             </div>
-            <br>
-            <textarea v-model="contactBoxMsg" name="message" rows="10" cols="80" placeholder="Message goes here!">
-            </textarea> 
+            <textarea v-model="contactBoxMsg" name="message" rows="10" cols="80" placeholder="Message goes here!"></textarea> 
         </form>
         <br>
         <button type="submit">Submit</button>
@@ -24,6 +22,8 @@ export default {
     name: 'ContactPage',
     data (){
         return {
+            name: '',
+            email: '',
             contactBoxMsg: ''
         }
     },
@@ -38,16 +38,28 @@ export default {
 h1 {
     font-family: 'Courier-New', monospace;
 }
-div {
-    text-align: center;
+
+.messageFromInfo {
     -webkit-flex: 2;
     -ms-flex: 2;
     flex: 2;
 }
 
+.contactForm {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    max-width: max-content;
+    align-items: center;
+    
+}
+
 input {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
     border-radius: 5px;
     border-style: hidden;
     color: rgb(226, 158, 69);
@@ -57,6 +69,9 @@ input {
 textarea {
     max-width: 500px;
     max-height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     resize: none;
     border-radius: 5px;
     border-style: hidden;

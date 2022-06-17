@@ -1,13 +1,13 @@
 <template>
 <!---Exactly what it says on the tin. A navigation bar at the top that should always be present-->
     <nav class="header">
-         <ul>
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/portfolio">Portfolio</router-link></li>
-        <li><router-link to="/ramblings">Ramblings</router-link></li>
-        <li><router-link to="/about">About</router-link></li>
-        <!---#TODO Add Light mode/Dark mode toggle, default to dark mode-->
-        <li style="float:right"><router-link to="/contact">Contact</router-link></li>
+        <ul>
+          <li><router-link to="/">Home</router-link></li>
+          <li><router-link to="/portfolio">Portfolio</router-link></li>
+          <li><router-link to="/ramblings">Ramblings</router-link></li>
+          <li><router-link to="/about">About</router-link></li>
+          <!---#TODO Add Light mode/Dark mode toggle, default to dark mode-->
+          <li style="float:right"><router-link to="/contact">Contact</router-link></li>
         </ul> 
     </nav>
 </template>
