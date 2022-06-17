@@ -2,7 +2,7 @@
 <!---This should have a couple columns of links to projects represented as tiles with names and short descriptions-->
     <h1>Portfolio</h1>
     <div>
-        <p>Gonna put other projects here, eventually. Probably also links to github repos</p>
+        <p>Gonna put other projects here, eventually. Probably as links to github repos. Maybe small interactive demos if I can get that to behave properly</p>
     </div>
 </template>
 
