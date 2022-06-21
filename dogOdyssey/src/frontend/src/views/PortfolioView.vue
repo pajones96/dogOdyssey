@@ -31,10 +31,12 @@ p {
     flex: 2;
 }
 .row {
-
+    display: flex;
+    flex-direction: row;
 }
 .column {
-
+    display: flex;
+    flex-direction: column;
 }
 
 </style>
