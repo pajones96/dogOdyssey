@@ -4,9 +4,16 @@
     <div>
         <p>Gonna put other projects here, eventually. Probably as links to github repos. Maybe small interactive demos if I can get that to behave properly</p>
         <div class="row">
-            <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
+            <!---The way I want this to work is that the projects will be displayed in these columns with some details and a github link-->
+            <div class="column">
+                <div class="projectTile">{{ projectName }}</div>
+            </div>
+            <div class="column">
+                <div class="projectTile">{{ projectName }}</div>
+            </div>
+            <div class="column">
+                <div class="projectTile">{{ projectName }}</div>
+            </div>
         </div>
     </div>
 </template>
@@ -14,6 +21,11 @@
 <script>
 export default {
     name: 'PortfolioPage',
+    data () {
+        return {
+            projectName: "To be added soon"
+        }
+    },
     mounted () {
         fetch("/Portfolio");
     }
@@ -38,5 +50,13 @@ p {
     display: flex;
     flex-direction: column;
 }
-
+.projectTile {
+    border-radius: 5px;
+    border: hidden;
+    background-color: rgb(34, 32, 34);
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    padding: 5px;
+}
 </style>
