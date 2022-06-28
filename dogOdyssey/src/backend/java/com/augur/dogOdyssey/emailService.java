@@ -16,5 +16,7 @@ public class emailService {
         userMessage.setFrom(cForm.email);
         userMessage.setSubject("New message from" + cForm.email);
         userMessage.setText(cForm.messageBody);
+
+        emailSender.send(userMessage);
     }
 }
