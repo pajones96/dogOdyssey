@@ -7,10 +7,22 @@
           <li><router-link to="/ramblings">Ramblings</router-link></li>
           <li><router-link to="/about">About</router-link></li>
           <!---#TODO Add Light mode/Dark mode toggle, default to dark mode-->
+          <li><button class="darkModeToggle"></button></li>
           <li style="float:right"><router-link to="/contact">Contact</router-link></li>
         </ul> 
     </nav>
 </template>
+
+<script>
+import { defineComponent } from '@vue/composition-api'
+
+export default defineComponent({
+  setup() {
+    
+  },
+})
+</script>
+
 
 <style scoped>
 
@@ -44,5 +56,9 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+}
+
+.darkModeToggle {
+  float: right;
 }
 </style>
