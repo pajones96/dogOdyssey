@@ -7,19 +7,24 @@
           <li><router-link to="/ramblings">Ramblings</router-link></li>
           <li><router-link to="/about">About</router-link></li>
           <!---#TODO Add Light mode/Dark mode toggle, default to dark mode-->
-          <li><button class="darkModeToggle"></button></li>
+          <li style="float:right"><button class="darkModeButton" @click="darkModeToggle">light bulb icon goes here</button></li>
           <li style="float:right"><router-link to="/contact">Contact</router-link></li>
         </ul> 
     </nav>
 </template>
 
 <script>
-import { defineComponent } from '@vue/composition-api'
-
+import { defineComponent } from 'vue';
 export default defineComponent({
   setup() {
     
   },
+  methods: {
+      darkModeToggle() {
+        var element = document.getElementsByClassName("defaultPage");
+        element.classList.toggle("dark-mode");
+      }
+  }
 })
 </script>
 
@@ -58,7 +63,13 @@ li a:hover {
   background-color: #111;
 }
 
-.darkModeToggle {
+.darkModeButton {
   float: right;
+  border: hidden;
+  padding: 14px 16px;
+}
+
+.dark-mode {
+  background-color: rgb(53, 50, 53);
 }
 </style>

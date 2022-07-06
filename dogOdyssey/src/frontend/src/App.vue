@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="defaultPage">
     <NavBar></NavBar>
     <router-view/>
   </div>
@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style>
-  div {
+  .defaultPage {
     background-color: rgb(53, 50, 53);
   }
 </style>
