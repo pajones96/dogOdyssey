@@ -1,4 +1,5 @@
 <template>
+<link href='https://css.gg/bulb.css' rel='stylesheet'>
 <!---Exactly what it says on the tin. A navigation bar at the top that should always be present-->
     <nav class="header">
         <ul>
@@ -7,7 +8,7 @@
           <li><router-link to="/ramblings">Ramblings</router-link></li>
           <li><router-link to="/about">About</router-link></li>
           <!---#TODO Add Light mode/Dark mode toggle, default to dark mode-->
-          <li style="float:right"><button class="darkModeButton" @click="darkModeToggle">light bulb icon goes here</button></li>
+          <li style="float:right"><button class="darkModeButton" @click="darkModeToggle"><i class="gg-bulb"></i></button></li>
           <li style="float:right"><router-link to="/contact">Contact</router-link></li>
         </ul> 
     </nav>
@@ -64,11 +65,16 @@ li a:hover {
 }
 
 .darkModeButton {
+  display: block;
   float: right;
   border: hidden;
   padding: 14px 16px;
+  height: max-content;
 }
 
+.darkModeButton:hover {
+  background-color: #111;
+}
 .dark-mode {
   background-color: rgb(53, 50, 53);
 }
